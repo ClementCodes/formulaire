@@ -1,0 +1,10 @@
+# Query: group
+
+5 results - 1 file
+
+index.js:
+  3: // le inpUtilisateur  signifie donc le premier enfant input de la portée formgroup et bien tu le prends  "les ciblings"
+  5:   ".form-group:nth-child(1) input"
+  7: const inpMail = document.querySelector(".form-group:nth-child(2) input");
+  8: const inpMdp = document.querySelector(".form-group:nth-child(3) input");
+  9: const inpConfirme = document.querySelector(".form-group:nth-child(4) input");
